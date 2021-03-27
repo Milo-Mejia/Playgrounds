@@ -36,3 +36,5 @@ func getThreeGems() {
     moveForward()
     collectGem()
 }
+
+
