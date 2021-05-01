@@ -1,29 +1,30 @@
 //
 //pattern is three; gems; and; then; one; at; the; top
     //
-
-func pickUpThreeGems() {
-    collectGem()
-    moveForward()
-    collectGem()
-    moveForward()
-    collectGem()
-}
-func pickUpRemaing1() {
-    moveForward()
-    collectGem()
-}
-turnLeft()
-moveForward()
-turnRight()
-moveForward()
-turnRight()
-
-
-for i in 1 ... 15{
-    pickUpThreeGems()
-    moveForward()
-    pickUpRemaing1()
-    turnLeft()
+func pickUpallGems() {
+ moveForward()
+ collectGem()
+ moveForward()
+ collectGem()
+ turnLeft()
+ turnLeft()
+ moveForward()
+ turnRight()
+ moveForward()
+ collectGem()
+ turnLeft()
+ turnLeft()
+ moveForward()
+ moveForward()
+ collectGem()
+ moveForward()
     
+}
+
+
+
+
+
+for i in 1 ... 4{
+    pickUpallGems()
 }
